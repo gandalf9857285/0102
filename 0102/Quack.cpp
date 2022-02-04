@@ -3,4 +3,4 @@
 
 void Quack::quack() {
 	std::cout << "krya-krya govorit utochka" << std::endl;
-}
+};

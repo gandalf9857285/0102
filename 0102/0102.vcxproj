@@ -140,18 +140,32 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="0102.cpp" />
+    <ClCompile Include="DecoyDuck.cpp" />
     <ClCompile Include="Duck.cpp" />
+    <ClCompile Include="FlyBehavior.cpp" />
+    <ClCompile Include="FlyNoWay.cpp" />
+    <ClCompile Include="FlyWithWings.cpp" />
     <ClCompile Include="MallardDuck.cpp" />
+    <ClCompile Include="MuleQuack.cpp" />
     <ClCompile Include="Quack.cpp" />
     <ClCompile Include="QuackBehavior.cpp" />
     <ClCompile Include="RedheadDuck.cpp" />
+    <ClCompile Include="RubberDuck.cpp" />
+    <ClCompile Include="Squeak.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DecoyDuck.h" />
     <ClInclude Include="Duck.h" />
+    <ClInclude Include="FlyBehavior.h" />
+    <ClInclude Include="FlyNoWay.h" />
+    <ClInclude Include="FlyWithWings.h" />
     <ClInclude Include="MallardDuck.h" />
+    <ClInclude Include="MuleQuack.h" />
     <ClInclude Include="Quack.h" />
     <ClInclude Include="QuackBehavior.h" />
     <ClInclude Include="RedheadDuck.h" />
+    <ClInclude Include="RubberDuck.h" />
+    <ClInclude Include="Squeak.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
